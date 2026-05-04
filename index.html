@@ -1,23 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Student Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paras Vijay Waghmare | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for a modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <h1>Welcome to My Portfolio</h1>
+    <header>
+        <nav>
+            <div class="logo">PVW</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Paras Vijay Waghmare</span></h1>
+            <p>Data Analytics Specialist & DevOps Enthusiast</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
 
-    <p>Hello! I am a college student passionate about technology and web development.</p>
-    <p>This portfolio website demonstrates Git version control.</p>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>I am a third-year engineering student at MIT-ADT University specializing in Data Analytics. I am passionate about building automated pipelines and extracting insights from data.</p>
+        <div class="skills">
+            <span>Machine Learning</span>
+            <span>Docker & Jenkins</span>
+            <span>Data Visualization</span>
+            <span>Java & C++</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Paras Vijay Waghmare. Built with Git & Jenkins.</p>
+    </footer>
 
 </body>
 </html>
